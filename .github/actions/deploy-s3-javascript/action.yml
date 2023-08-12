@@ -11,6 +11,9 @@ bucket-region:
 dist-folder: 
   description: 'the folder containning the deployables'
   required: true
+outputs:
+  website-url:
+  description: 'The output URL'
 runs:
  using: 'node16'
  main: 'main.js'
