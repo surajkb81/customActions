@@ -1,5 +1,5 @@
 name: 'deploy to AWS S3'
 description: 'deploy a static website'
 runs:
- using: 'node18'
+ using: 'node 18'
  main: 'main.js'
