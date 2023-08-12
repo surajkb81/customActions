@@ -12,7 +12,7 @@ dist-folder:
   description: 'the folder containning the deployables'
   required: true
 outputs:
-  website-url:
+  website-url: 
   description: 'The output URL'
 runs:
  using: 'node16'
