@@ -11,7 +11,7 @@ runs:
   #- name: Get code
     #uses: actions/checkout@v3
   - name: Cache dependencies
-    if: inputs.caching == 'true'# if true following steps will be executed
+    if: inputs.caching == 'true' #if true following steps will be executed
     id: cache
     uses: actions/cache@v3
     with:
